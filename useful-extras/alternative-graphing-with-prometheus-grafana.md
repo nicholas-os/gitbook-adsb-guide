@@ -38,7 +38,7 @@ Open the `docker-compose.yml` file that was created when deploying `ultrafeeder`
 Add the following lines to the `environment` section of the `ultrafeeder` container definition \(in the `ultrafeeder:` section, below `environment:` and before the `volumes:` section\):
 
 ```yaml
-      - ENABLE_PROMETHEUS=true
+      - PROMETHEUS_ENABLE=true
 ```
 
 Append the following lines to the end of the file:
